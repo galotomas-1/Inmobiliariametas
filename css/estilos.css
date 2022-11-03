@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh; }
+
+.logo {
+  border-radius: 10px;
+  border: 1px solid black; }
+
+.nav-link {
+  color: white;
+  text-shadow: 0 0 5px black; }
+
+.h1-metas {
+  padding: 20px; }
+
+.prop-dest {
+  padding: 10px;
+  text-shadow: 0 0 2px white; }
+
+.nlefta {
+  background-image: url(../Images/Casa2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px; }
+
+.nleftb {
+  background-image: url(../Images/Venta1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  border-radius: 10px; }
+
+.nright h3 {
+  text-align: center;
+  text-align: center; }
+
+img {
+  max-width: 100%;
+  padding: 10px;
+  align-items: center; }
+
+article.card {
+  max-width: 350px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 1rem;
+  box-shadow: 0 0 12px white; }
+
+.header-card img {
+  border-radius: 8px 8px 0 0;
+  max-height: 200px;
+  height: 200px;
+  width: 100%; }
+
+.categoria-card {
+  margin-top: 1rem; }
+  .categoria-card span {
+    background-color: #25c4d8;
+    color: white;
+    padding: .2rem .5rem;
+    border-radius: 4px; }
+
+.card footer {
+  padding: 0 1rem; }
+
+.contform {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.form-registro {
+  width: 300px;
+  height: 400px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 30px 0px black;
+  background-color: #ffc107; }
+
+.textarea {
+  resize: none;
+  min-height: 150px; }
+
+.controls {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  font-size: 14px; }
+
+.botons {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  background-color: #25c4d8;
+  margin: 5px 0;
+  font-size: 16px;
+  transition: 0.3s ease-in-out; }
+  .botons:hover {
+    color: white;
+    background-color: #333;
+    border-color: white; }
+
+.nleft3 {
+  background-image: url(../Images/nosotrosss.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px; }
+
+.jumbotron {
+  background-image: url(../Images/iocenters-g0d45d9651_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  color: white;
+  text-shadow: 0 0 5px black;
+  border-radius: 0px;
+  margin: 0; }
+
+.nosotrosh1 {
+  text-align: center;
+  padding: 10px; }
+
+.btn-primary {
+  color: white;
+  background-color: #ffc107;
+  border-color: ffc107; }
+  .btn-primary:hover {
+    color: white;
+    background-color: #333;
+    border-color: white; }
+
+.nleft {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px; }
+
+.nleft1 {
+  background-image: url(../Images/notepad-g62a8fbc9f_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px; }
+
+.row {
+  padding: 20px; }
+
+.nleft {
+  background-image: url(../Images/alquiler.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px; }
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  position: relative; }
+
+.nleft2 {
+  background-image: url(../Images/Casa2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px; }
+
+.row {
+  padding: 20px; }
+
+.nleft2 {
+  background-image: url(../Images/Casa2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px; }
+
+.itema {
+  background-image: url(../Images/nuevo10.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.itemb {
+  background-image: url(../Images/Nuevo11.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.itemc {
+  background-image: url(../Images/Nuevo12.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.itemd {
+  background-image: url(../Images/nuevo13.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.iteme {
+  background-image: url(../Images/Nuevo14.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.itemf {
+  background-image: url(../Images/Nuevo15.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.itemg {
+  background-image: url(../Images/Nuevo16.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.itemh {
+  background-image: url(../Images/Nuevo18.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.item {
+  height: 250px;
+  border: 2px solid black; }
+
+.item11 {
+  background-image: url(../Images/holiday-home-g322932423_1920.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.item22 {
+  background-image: url(../Images/Nuevo17.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.item33 {
+  background-image: url(../Images/alquiler.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.item44 {
+  background-image: url(../Images/Venta1.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.item55 {
+  background-image: url(../Images/Casa2.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.item66 {
+  background-image: url(../Images/house-g54defd174_1920.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.item77 {
+  background-image: url(../Images/house-g54defd174_1920.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.item88 {
+  background-image: url(../Images/holiday-home-g322932423_1920.jpg);
+  background-position: center;
+  background-size: cover; }

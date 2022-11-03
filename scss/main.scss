@@ -1,0 +1,281 @@
+@import "reset";
+@import "variables";
+@mixin nl {
+    background-position: center;
+    background-size: cover;   
+}
+
+
+body {
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+}
+.logo {
+	border-radius: 10px;
+	border: 1px solid $color-bl;
+}
+.nav-link {
+	color: $color-article;
+	text-shadow: 0 0 5px $color-bl;
+}
+.h1-metas {
+	padding: 20px;
+}
+.prop-dest {
+	padding: 10px;
+	text-shadow: 0 0 2px $color-article ;
+}
+.nlefta {
+	background-image: url(../Images/Casa2.jpg);
+    @include nl;
+	height: 300px;
+	border-radius: 10px;
+}
+.nleftb {
+	background-image: url(../Images/Venta1.jpg);
+	@include nl;
+	height: 400px;
+	border-radius: 10px;
+}
+.nright {
+	h3 {
+		text-align: center;
+		text-align: center;
+	}
+}
+img {
+	max-width: 100%;
+	padding: 10px;
+	align-items: center;
+}
+article.card {
+	max-width: 350px;
+	background-color: $color-article;
+	border-radius: 5px;
+	margin: 1rem;
+	box-shadow: 0 0 12px $color-article;
+}
+.header-card {
+	img {
+		border-radius: 8px 8px 0 0;
+		max-height: 200px;
+		height: 200px;
+		width: 100%;
+	}
+}
+.categoria-card {
+	margin-top: 1rem;
+	span {
+		background-color: $color-cel;
+		color: $color-article;
+		padding: .2rem .5rem;
+		border-radius: 4px;
+	}
+}
+.card {
+	footer {
+		padding: 0 1rem;
+	}
+}
+.contform {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.form-registro {
+	width: 300px;
+	height: 400px;
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 30px 0px $color-bl;
+	background-color: $color-nav;
+}
+.textarea {
+	resize: none;
+	min-height: 150px;
+}
+.controls {
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	border: 1px solid $color-bl;
+	font-size: 14px;
+}
+.botons {
+	width: 100%;
+	border: none;
+	padding: 12px;
+	background-color: $color-cel;
+	margin: 5px 0;
+	font-size: 16px;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		color: $color-article;
+		background-color: $color-gg;
+		border-color: $color-article;
+	}
+}
+.nleft3 {
+	background-image: url(../Images/nosotrosss.jpg);
+	@include nl;
+	height: 300px;
+	border-radius: 10px;
+}
+.jumbotron {
+	background-image: url(../Images/iocenters-g0d45d9651_1920.jpg);
+	@include nl;
+	height: 450px;
+	color: $color-article;
+	text-shadow: 0 0 5px $color-bl;
+	border-radius: 0px;
+	margin: 0;
+}
+.nosotrosh1 {
+	text-align: center;
+	padding: 10px;
+}
+.btn-primary {
+	color: $color-article;
+	background-color: $color-nav;
+	border-color: ffc107;
+	&:hover {
+		color: $color-article;
+		background-color: $color-gg;
+		border-color: $color-article;
+	}
+}
+.nleft {
+    @include nl;
+	height: 300px;
+	border-radius: 10px;
+}
+.nleft1 {
+	background-image: url(../Images/notepad-g62a8fbc9f_1920.jpg);
+	@include nl;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.row {
+	padding: 20px;
+}
+
+
+
+
+.nleft{
+    background-image: url(../Images/alquiler.jpg);
+    @include nl;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+footer {
+	background-color: $color-gg;
+	color: $color-article;
+	text-align: center;
+	font-size: 30px;
+	width: 100%;
+	position: relative;
+}
+
+
+.nleft2 {
+	background-image: url(../Images/Casa2.jpg);
+	@include nl;
+	height: 300px;
+	border-radius: 10px;
+}  
+
+.row {
+	padding: 20px;
+}
+
+.nleft2 {
+	background-image: url(../Images/Casa2.jpg);
+	@include nl;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.itema {
+	background-image: url(../Images/nuevo10.jpg);
+	@include nl;
+}
+.itemb {
+	background-image: url(../Images/Nuevo11.jpg);
+	@include nl;
+}
+.itemc {
+	background-image: url(../Images/Nuevo12.jpg);
+    @include nl;
+}
+.itemd {
+	background-image: url(../Images/nuevo13.jpg);
+    @include nl;
+}
+.iteme {
+	background-image: url(../Images/Nuevo14.jpg);
+    @include nl;
+}
+.itemf {
+	background-image: url(../Images/Nuevo15.jpg);
+	@include nl;
+}
+.itemg {
+	background-image: url(../Images/Nuevo16.jpg);
+	@include nl;
+}
+.itemh {
+	background-image: url(../Images/Nuevo18.jpg);
+	@include nl;
+}
+
+.item {
+	height: 250px;
+	border: 2px solid $color-bl;
+}
+.item11 {
+	background-image: url(../Images/holiday-home-g322932423_1920.jpg);
+    @include nl;
+}
+.item22 {
+	background-image: url(../Images/Nuevo17.jpg);
+	@include nl;
+}
+.item33 {
+	background-image: url(../Images/alquiler.jpg);
+	@include nl;
+}
+.item44 {
+	background-image: url(../Images/Venta1.jpg);
+	@include nl;
+}
+.item55 {
+	background-image: url(../Images/Casa2.jpg);
+	@include nl;
+}
+.item66 {
+	background-image: url(../Images/house-g54defd174_1920.jpg);
+	@include nl;
+}
+.item77 {
+	background-image: url(../Images/house-g54defd174_1920.jpg);
+	@include nl;
+}
+.item88 {
+	background-image: url(../Images/holiday-home-g322932423_1920.jpg);
+	@include nl;
+}
+
+
+
+
+ 
