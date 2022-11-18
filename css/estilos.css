@@ -31,7 +31,14 @@ body {
   border-radius: 10px; }
 
 .nleftb {
-  background-image: url(../Images/Venta1.jpg);
+  background-image: url(../Images/nuevo6.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  border-radius: 10px; }
+
+.nfletc {
+  background-image: url(../Images/Nuevo8.jpg);
   background-position: center;
   background-size: cover;
   height: 400px;
@@ -40,6 +47,20 @@ body {
 .nright h3 {
   text-align: center;
   text-align: center; }
+
+.nleftc {
+  background-image: url(../Images/Nuevo9.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  border-radius: 10px; }
+
+.nleftd {
+  background-image: url(../Images/nuevo4.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  border-radius: 10px; }
 
 img {
   max-width: 100%;
@@ -132,6 +153,11 @@ article.card {
 .nosotrosh1 {
   text-align: center;
   padding: 10px; }
+
+@media (max-width: 320px) {
+  .mq {
+    display: flex;
+    flex-direction: column; } }
 
 .btn-primary {
   color: white;
